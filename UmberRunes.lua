@@ -233,7 +233,7 @@ local function update_runes()
 	RuneFrame:Hide();
 		
 	local current_spec = GetSpecialization();
-	if rune_current_spec ~= current_spec then
+	if rune_current_spec ~= current_spec and current_spec ~= nil then
 		rune_current_spec = current_spec;
 		for i = 1,6 do
 			rune_foreground_textures[i]:SetTexture("Interface\\PlayerFrame\\ClassOverlayDeathKnightRunes");
