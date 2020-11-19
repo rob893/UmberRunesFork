@@ -1,4 +1,4 @@
-## Interface: 90001
+## Interface: 90002
 ## Title: UmberRunes
 ## Notes: Simple yet sophisticated Death Knight Rune interface.
 ## Author: Umberwaugh, Kazzak-EU
